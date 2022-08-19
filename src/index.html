@@ -8,51 +8,139 @@
   </head>
 
   <body class="p-4">
+    <header class="cads-header">
+      <div class="cads-grid-container">
+        <div class="cads-grid-row">
+          <nav class="cads-skip-links">
+            <a class="cads-skip-links__link" href="#cads-navigation"
+              >Skip to navigation</a
+            >
+            <a class="cads-skip-links__link" href="#cads-main-content"
+              >Skip to content</a
+            >
+            <a class="cads-skip-links__link" href="#cads-footer"
+              >Skip to footer</a
+            >
+          </nav>
+          <div class="cads-grid-col-md-2 cads-header__logo-row">
+            <a title="Citizens Advice homepage" class="cads-logo" href="/"></a>
+            <button
+              class="cads-header__search-reveal js-cads-search-reveal"
+              type="button"
+              aria-label="Open search"
+              aria-expanded="false"
+              aria-controls="header-search-form"
+              data-testid="expand-button"
+              data-descriptive-label-show="Open search"
+              data-descriptive-label-hide="Close search"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 16 16"
+                class="cads-icon cads-icon--small cads-icon--search"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <path
+                  d="M13.842 12.294 11.514 9.86a5.162 5.162 0 0 0-.74-6.354A5.139 5.139 0 0 0 2 7.145a5.146 5.146 0 0 0 2.712 4.542 5.135 5.135 0 0 0 5.282-.257l2.304 2.413a.53.53 0 0 0 .751 0l.795-.796a.529.529 0 0 0-.002-.753Zm-6.703-2.223a2.925 2.925 0 0 1-2.87-2.358 2.93 2.93 0 0 1 1.75-3.277 2.925 2.925 0 0 1 3.554 1.079 2.93 2.93 0 0 1-.364 3.698 2.908 2.908 0 0 1-2.07.862v-.004Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 16 16"
+                class="cads-icon cads-icon--small cads-icon--close"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12.854 12.073a.5.5 0 0 0 0-.707L9.488 8l3.366-3.366a.5.5 0 0 0 0-.707l-.781-.78a.5.5 0 0 0-.707 0L8 6.511 4.634 3.146a.5.5 0 0 0-.707 0l-.78.781a.5.5 0 0 0 0 .707L6.511 8l-3.366 3.366a.5.5 0 0 0 0 .707l.781.78a.5.5 0 0 0 .707 0L8 9.489l3.366 3.366a.5.5 0 0 0 .707 0l.78-.781Z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div class="cads-grid-col-md-10 cads-header__search-row">
+            <ul class="cads-header__links js-cads-copy-into-nav">
+              <li class="cads-header__links-item">
+                <span class="cads-header__text">Home</span>
+              </li>
+              <li class="cads-header__links-item">
+                <a class="cads-header__hyperlink" href="?advisernet">LCA</a>
+              </li>
+              <li class="cads-header__links-item">
+                <a class="cads-header__hyperlink" href="?CABlink"
+                  >Partnership</a
+                >
+              </li>
+              <li class="cads-header__links-item">
+                <a class="cads-header__hyperlink" href="?BMIS">National</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="cads-navigation-full-width-wrapper">
       <nav class="cads-navigation js-cads-greedy-nav" id="cads-navigation">
         <ul class="cads-navigation__list">
           <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/benefits/">Benefits</a>
+            <a class="cads-navigation__link" href="/introduction/">Home</a>
           </li>
           <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/work/">Work</a>
+            <a class="cads-navigation__link" href="/documentation/"
+              >Documentation</a>
           </li>
           <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/debt-and-money/"
-              >Debt and money</a
-            >
-          </li>
-          <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/consumer/">Consumer</a>
-          </li>
-          <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/housing/">Housing</a>
-          </li>
-          <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/family/">Family</a>
-          </li>
-          <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/law-and-courts/"
-              >Law and courts</a
-            >
-          </li>
-          <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/immigration/"
-              >Immigration</a
-            >
-          </li>
-          <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/health/">Health</a>
-          </li>
-          <li class="cads-navigation__list-item">
-            <a class="cads-navigation__link" href="/more">More from us</a>
+            <a class="cads-navigation__link" href="/support/">Support</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <button class="btn btn-primary">Primary button</button>
+    <div class="cads-grid-container">
+      <div class="cads-grid-row">
+        <div class="cads-grid-col-8">
+          <div class="cads-styleguide-grid-example">
+            <h1>​Introduction</h1>
 
-    <button class="btn btn-secondary">Secondary button</button>
+            <p>
+              Welcome to the workforce manager. It's the new place that we'll be
+              asking you to: 
+              <ul class="my-unordered-list"><li>Record changes in FTE. You will only need to do
+              this when there's a change rather than once a month. </li> <li>Record Annual
+              Leave, Sickness Leave and Other Leave.</li></ul>
+            </p>
+
+            <h1>​Recent Changes</h1>
+            <p><ul class="my-unordered-list"><li>17/08/2022 - Added Long Term Sickness Leave Column to Leave Reporting pages</li><li>17/08/2022 -&nbsp;We had "Add 'Phased Return' as a role" as an upcoming improvement, but decided not to implement it for architectural reasons. All leave-based adjustments should be recorded in the leave reporting page and Phased Return is a leave based adjustment, specifically a sickness leave adjustment</li><li>10/08/2022 - Guider is removed from workforce search if you set their employment status to 'left employment'</li><li>24/6/2022 - Added FTE column to LCA Workforce Search</li><li>20/6/2022 - Removed the need to press the 'search' button on the LCA and DC Workforce Search pages. You only need to press it if you are looking to filter the results based on the criteria you select on the dropdowns.</li><li>20/6/2022 - Write better guidance for Other Leave</li></ul></p>
+            <h1>​Upcoming Changes</h1>
+            <p><ul class="my-unordered-list"><li>The New Person form relies on OktaID, which is difficult to obtain. We will be removing this process entirely and replacing it with an automated integration with Okta e.g. Guider details will automatically appear.</li><li>Improving accuracy of the FTE report</li><li>​Add description of roles and employment statuses</li><li>Leave reporting column titles not sticky</li></ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="cads-footer" id="cads-footer">
+      <div class="cads-grid-container">
+        <nav aria-label="Footer Navigation">
+          <div class="cads-grid-row"></div>
+        </nav>
+        <div class="cads-footer__company-info">
+          <div class="cads-footer__logo">
+            <a class="cads-logo" href="/" title="Citizens Advice homepage"></a>
+          </div>
+          <div class="cads-footer__meta">
+            <p class="cads-footer__meta-text" data-testid="copyright">
+              Copyright ©2022 Citizens Advice. All rights reserved.
+            </p>
+            <p class="cads-footer__meta-text" data-testid="legal-summary">
+              Citizens Advice is an operating name of the National Association
+              of Citizens Advice Bureaux. Registered charity number 279057. VAT
+              number 726 0202 76. Company limited by guarantee. Registered
+              number 01436945 England. Registered office: Citizens Advice, 3rd
+              Floor North, 200 Aldersgate, London, EC1A 4HD
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

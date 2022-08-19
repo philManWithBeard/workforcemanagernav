@@ -3,3 +3,8 @@
 // $border-radius: 1px;
 
 @import '../node_modules/@citizensadvice/design-system/scss/lib.scss';
+
+.my-unordered-list {
+  @extend %cads-list-unordered;
+  line-height: 1.625rem;
+}
