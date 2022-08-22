@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js"></script>
+  </head>
+
+  <body class="p-4">
+    <header class="cads-header">
+      <div class="cads-grid-container">
+        <div class="cads-grid-row">
+          <nav class="cads-skip-links">
+            <a class="cads-skip-links__link" href="#cads-navigation"
+              >Skip to navigation</a
+            >
+            <a class="cads-skip-links__link" href="#cads-main-content"
+              >Skip to content</a
+            >
+            <a class="cads-skip-links__link" href="#cads-footer"
+              >Skip to footer</a
+            >
+          </nav>
+          <div class="cads-grid-col-md-2 cads-header__logo-row">
+          <a title="Workforce Manager Homepage" href="/"><img src="./workforcelogo.png" alt="workforce logo" width="350" height="40">
+            </a>
+            <button
+              class="cads-header__search-reveal js-cads-search-reveal"
+              type="button"
+              aria-label="Open search"
+              aria-expanded="false"
+              aria-controls="header-search-form"
+              data-testid="expand-button"
+              data-descriptive-label-show="Open search"
+              data-descriptive-label-hide="Close search"
+            >
+            </button>
+          </div>
+          <div class="cads-grid-col-md-10 cads-header__search-row">
+            <ul class="cads-header__links js-cads-copy-into-nav">
+              <li class="cads-header__links-item">
+                <span class="cads-header__text">Home</span>
+              </li>
+              <li class="cads-header__links-item">
+                <a class="cads-header__hyperlink" href="?advisernet">LCA</a>
+              </li>
+              <li class="cads-header__links-item">
+                <a class="cads-header__hyperlink" href="?CABlink"
+                  >Partnership</a
+                >
+              </li>
+              <li class="cads-header__links-item">
+                <a class="cads-header__hyperlink" href="?BMIS">National</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="cads-navigation-full-width-wrapper">
+      <nav class="cads-navigation js-cads-greedy-nav" id="cads-navigation">
+        <ul class="cads-navigation__list">
+          <li class="cads-navigation__list-item">
+            <a class="cads-navigation__link" href="/introduction/">Home</a>
+          </li>
+          <li class="cads-navigation__list-item">
+            <a class="cads-navigation__link" href="/documentation/"
+              >Documentation</a>
+          </li>
+          <li class="cads-navigation__list-item">
+            <a class="cads-navigation__link" href="/support/">Support</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="cads-grid-container">
+      <div class="cads-grid-row">
+        <div class="cads-grid-col-8">
+          <div class="cads-styleguide-grid-example">
+            <h1>​Introduction</h1>
+
+            <p>
+              Welcome to the workforce manager. It's the new place that we'll be
+              asking you to: 
+              <ul class="my-unordered-list"><li>Record changes in FTE. You will only need to do
+              this when there's a change rather than once a month. </li> <li>Record Annual
+              Leave, Sickness Leave and Other Leave.</li></ul>
+            </p>
+
+            <h1>​Recent Changes</h1>
+            <p><ul class="my-unordered-list"><li>17/08/2022 - Added Long Term Sickness Leave Column to Leave Reporting pages</li><li>17/08/2022 -&nbsp;We had "Add 'Phased Return' as a role" as an upcoming improvement, but decided not to implement it for architectural reasons. All leave-based adjustments should be recorded in the leave reporting page and Phased Return is a leave based adjustment, specifically a sickness leave adjustment</li><li>10/08/2022 - Guider is removed from workforce search if you set their employment status to 'left employment'</li><li>24/6/2022 - Added FTE column to LCA Workforce Search</li><li>20/6/2022 - Removed the need to press the 'search' button on the LCA and DC Workforce Search pages. You only need to press it if you are looking to filter the results based on the criteria you select on the dropdowns.</li><li>20/6/2022 - Write better guidance for Other Leave</li></ul></p>
+            <h1>​Upcoming Changes</h1>
+            <p><ul class="my-unordered-list"><li>The New Person form relies on OktaID, which is difficult to obtain. We will be removing this process entirely and replacing it with an automated integration with Okta e.g. Guider details will automatically appear.</li><li>Improving accuracy of the FTE report</li><li>​Add description of roles and employment statuses</li><li>Leave reporting column titles not sticky</li></ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="cads-footer" id="cads-footer">
+      <div class="cads-grid-container">
+        <nav aria-label="Footer Navigation">
+          <div class="cads-grid-row"></div>
+        </nav>
+        <div class="cads-footer__company-info">
+          <div class="cads-footer__logo">
+            <a class="cads-logo" href="/" title="Citizens Advice homepage"></a>
+          </div>
+          <div class="cads-footer__meta">
+            <p class="cads-footer__meta-text" data-testid="copyright">
+              Copyright ©2022 Citizens Advice. All rights reserved.
+            </p>
+            <p class="cads-footer__meta-text" data-testid="legal-summary">
+              Citizens Advice is an operating name of the National Association
+              of Citizens Advice Bureaux. Registered charity number 279057. VAT
+              number 726 0202 76. Company limited by guarantee. Registered
+              number 01436945 England. Registered office: Citizens Advice, 3rd
+              Floor North, 200 Aldersgate, London, EC1A 4HD
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
